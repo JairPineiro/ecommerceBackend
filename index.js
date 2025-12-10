@@ -1,58 +1,60 @@
-/* eslint-disable camelcase */
-const jsonServer = require('json-server')
-const path = require('path')
-const server = jsonServer.create()
-const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const jsonServer = require('json-server');
+const express = require('express');
+const path = require('path');
+const server = jsonServer.create();
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 
-const addIdAndTimeStamps = require('./middlewares/addIdAndTimeStamps')
+// Middlewares personalizados
+const addIdAndTimeStamps = require('./middlewares/addIdAndTimeStamps');
+const loginEndpoint = require('./endpoints/login');
+const registerEndpoint = require('./endpoints/register');
+const itemsEndpoint = require('./endpoints/items');
+const usersEndpoint = require('./endpoints/users');
+const meEndpoint = require('./endpoints/me');
+const uploadEndpoint = require('./endpoints/upload');
+const cartEndpoint = require('./endpoints/cart');
 
-const loginEndpoint = require('./endpoints/login')
-const registerEndpoint = require('./endpoints/register')
-const itemsEndpoint = require('./endpoints/items')
-const usersEndpoint = require('./endpoints/users')
-const meEndpoint = require('./endpoints/me')
+const PORT = process.env.PORT || 3000;
 
-const PORT = process.env.PORT || 3000
+// Middleware predeterminado de JSON Server
+server.use(jsonServer.defaults());
+server.use(jsonServer.bodyParser);
 
-server.use(jsonServer.defaults())
-server.use(jsonServer.bodyParser)
+// Servir la carpeta de uploads como estática
+server.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Middleware para añadir id y timestamps a los objetos que se crean
-server.use(addIdAndTimeStamps)
+// Middleware para agregar ID y timestamps
+server.use(addIdAndTimeStamps);
 
-// Middleware para redireccionar '/users/me' a '/me', ya que json-server no soporta rutas anidadas
+// Middleware para redirigir la ruta `/users/me` a `/me`
 server.use((req, res, next) => {
   if (req.url === '/users/me') {
-    req.url = '/me'
+    req.url = '/me';
   }
-  next()
-})
+  next();
+});
 
-// Pasa la instancia de router.db a los endpoints
-usersEndpoint.db = router.db
-itemsEndpoint.db = router.db
-loginEndpoint.db = router.db
-registerEndpoint.db = router.db
-meEndpoint.db = router.db
+// Configuración de los endpoints con la base de datos
+usersEndpoint.db = router.db;
+itemsEndpoint.db = router.db;
+loginEndpoint.db = router.db;
+registerEndpoint.db = router.db;
+meEndpoint.db = router.db;
+cartEndpoint.db = router.db;
 
-// Ruta '/login' manejada por el endpoint login.js
-server.use('/login', loginEndpoint)
+// Configuración de las rutas de los endpoints
+server.use('/login', loginEndpoint);
+server.use('/register', registerEndpoint);
+server.use('/items', itemsEndpoint);
+server.use('/users', usersEndpoint);
+server.use('/me', meEndpoint);
+server.use('/upload', uploadEndpoint);
+server.use('/cart', cartEndpoint);
 
-// Ruta '/register' manejada por el endpoint register.js
-server.use('/register', registerEndpoint)
+// Configuración del router principal
+server.use(router);
 
-// Ruta '/items' manejada por el endpoint items.js
-server.use('/items', itemsEndpoint)
-
-// Rutas '/users/:id' y '/users' manejadas por el endpoint users.js
-server.use('/users', usersEndpoint)
-
-// Ruta '/me' manejada por el endpoint me.js
-server.use('/me', meEndpoint)
-
-server.use(router)
-
-// Levantamos el servidor
+// Iniciar el servidor
 server.listen(PORT, () => {
-  console.log('JSON Server is running on http://localhost:' + PORT)
-})
+  console.log('JSON Server is running on http://localhost:' + PORT);
+});

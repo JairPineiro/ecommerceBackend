@@ -14,20 +14,21 @@ router.post('/', (req, res) => {
   }
 
   if (!validateEmail(email)) {
-    res.status(400).send({ message: 'Invalid email format' })
+    res.status(400).send({ message: 'Invalid credentials' })
     return
   }
 
   const users = router.db.getState().users
   const user = users.find((user) => user.email === email)
-
+  
+  console.log(email, password, user?.password)
   if (user) {
     bcrypt.compare(password, user.password, (err, result) => {
       if (result) {
         const token = jwt.sign({ id: user.id, role: user.role }, secret)
         res.send({ token })
       } else {
-        res.status(401).send(err)
+        res.status(401).send({message: 'Invalid Credentials'})
       }
     })
   } else {
