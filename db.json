@@ -60,7 +60,7 @@
       "description": "Jersey de Patrick Mahomes color blanco",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322080312-45688432.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-patrick-mahomes-white-kansas-city-chiefs-game-jersey_ss5_p-13321842+u-yxgmkbzae84hhubewdry+v-2f0ed5b8b6284c7d83ffd57f15f5f4c4.jpg?_hv=2&w=900",
       "id": "d52cd6e9-37d4-4d02-94c5-f867f37ae4fa",
       "createdAt": 1732322080338,
       "updatedAt": 1732322080338
@@ -70,7 +70,7 @@
       "description": "Jersey de Patrick Mahomes color negro",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322119038-4336943.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-patrick-mahomes-black-kansas-city-chiefs-game-jersey_ss5_p-13321843+u-mj8y04hifwfbg1qj26k3+v-e2ab0b5bac99433297c5ff6d7aa4ca5b.jpg?_hv=2&w=900",
       "id": "1843fcc0-19e2-4207-91c4-76933d9495f7",
       "createdAt": 1732322119051,
       "updatedAt": 1732322119051
@@ -80,7 +80,7 @@
       "description": "Jersey de Travis Kelce color blanco",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322153258-677888829.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-white-kansas-city-chiefs-game-jersey_ss5_p-13321859+u-1xoprgfmdzj5d8rfubwu+v-e88f9e3f01424ac8af13f80e7c9b2e00.jpg?_hv=2&w=900",
       "id": "9dcfdd20-acbd-4960-88a7-c80afd653610",
       "createdAt": 1732322153270,
       "updatedAt": 1732322153270
@@ -90,7 +90,7 @@
       "description": "Jersey de Travis Kelce color negro",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322177199-67288964.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-black-kansas-city-chiefs-game-jersey_ss5_p-13321860+u-ydp0sbg1kxxz5cvrh4kq+v-f5b8a8c16d214d4d969b165e55abcccb.jpg?_hv=2&w=900",
       "id": "0d74dfd0-b64a-4941-8743-4aca9a69810c",
       "createdAt": 1732322177210,
       "updatedAt": 1732322177210
@@ -100,7 +100,7 @@
       "description": "Jersey de Travis Kelce color rojo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322202343-447010971.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-red-kansas-city-chiefs-game-jersey_ss5_p-13321858+u-ehmf0gvh82aehmlcvzah+v-58c5e3bb1cf04dd2b9d59c5fba96f96d.jpg?_hv=2&w=900",
       "id": "85074eac-aa55-4686-8995-81b3b535f1be",
       "createdAt": 1732322202360,
       "updatedAt": 1732322202360
@@ -110,17 +110,17 @@
       "description": "Balón oficial de la NFL",
       "price": "500",
       "category": "Artículos",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732322232713-176180161.jpg",
+      "image": "https://images.footballfanatics.com/nfl/wilson-nfl-pro-replica-game-football_ss4_p-11765424+u-zgpbwi4bqhq8l0r1kkwd+v-20dc1f65edca4d53835ca34a0f62e20e.jpg?_hv=2&w=900",
       "id": "6e2c291f-f28c-4d04-bf0e-886019faeee8",
       "createdAt": 1732322232723,
       "updatedAt": 1732322232723
     },
     {
-      "product_name": "Jersey Kc",
-      "description": "Jersey",
+      "product_name": "Jersey Kansas City Chiefs #25 Amarillo",
+      "description": "Jersey de Isiah Pacheco color amarillo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://ecommercebackend-sx0y.onrender.com/uploads/1732324966191-489664798.jpg",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-isiah-pacheco-gold-kansas-city-chiefs-inverted-game-jersey_ss5_p-200053949+u-rklxfwsodkxq19umhkp9+v-84e9f4fb99df41d8980f48cac30c0cbd.jpg?_hv=2&w=900",
       "id": "b9afc7d9-0872-4d89-98a7-dd802d862c0a",
       "createdAt": 1732324966213,
       "updatedAt": 1732324966213
