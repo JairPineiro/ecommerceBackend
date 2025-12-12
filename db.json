@@ -35,15 +35,65 @@
     }
   ],
   "items": [
+     {
+      "product_name": "Balón NFL",
+      "description": "Balón oficial de la NFL",
+      "price": "500",
+      "category": "Artículos",
+      "image": "https://fanatics.frgimages.com/shield-merchandise/wilson-the-duke-official-nfl-leather-game-football_pi3909000_ff_3909984-340656bcce06e0b35806_full.jpg?_hv=2&w=1018",
+      "id": "6e2c291f-f28c-4d04-bf0e-886019faeee8",
+      "createdAt": 1732322232723,
+      "updatedAt": 1732322232723
+    },
+     {
+      "product_name": "Balón Kansas City Chiefs",
+      "description": "Balón oficial Kansas City Chiefs edición leyendas",
+      "price": "500",
+      "category": "Artículos",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/kansas-city-chiefs-legends-signature-football_ss5_p-202448092+pv-1+u-hm697b0cntvf5kyihszx+v-mtuormb2yp8h2fugnatz.jpg?_hv=2&w=1018",
+      "id": "6e2c291f-f28c-4d04-bf0e-886019faeee8",
+      "createdAt": 1732322232723,
+      "updatedAt": 1732322232723
+    },
+     {
+      "product_name": "Gorra Kansas City Chiefs",
+      "description": "Gorra Kansas City Chiefs color rojo",
+      "price": "500",
+      "category": "Gorras",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/kansas-city-chiefs-legends-signature-football_ss5_p-202448092+pv-1+u-hm697b0cntvf5kyihszx+v-mtuormb2yp8h2fugnatz.jpg?_hv=2&w=1018",
+      "id": "6e2c291f-f28c-4d04-bf0e-886019faeee8",
+      "createdAt": 1732322232723,
+      "updatedAt": 1732322232723
+    },
     {
-      "product_name": "Balón de fútbol",
-      "description": "Balón de la actual Champions League",
-      "price": "30",
-      "category": "Sports",
-      "image": "https://www.innovasport.com/medias/IS-GU0209-1.jpg?context=bWFzdGVyfGltYWdlc3wxOTg0Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2g4OS8xMDYyOTg4MDQxNDIzOC5qcGd8NzhkODhkNTc2MDcwYTI5MWQ0MjY5ZTEwZDdlNjcyZTUwZTYzYjI5ZWJjZDM0N2I5NTU0ZTdjOWExMjI5MGI5NA",
-      "id": "f7c5ebe8-87ee-446b-8515-abb2064843c3",
-      "createdAt": 1717717658186,
-      "updatedAt": 1717717658186
+      "product_name": "Sudadera Kansas City Chiefs Roja",
+      "description": "Sudadera con capucha con logo de Kansas City Chiefs en color rojo para mujer",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/womens-g-iii-4her-by-carl-banks-red-kansas-city-chiefs-football-logo-fleece-tri-blend-pullover-hoodie_ss5_p-201455017+pv-1+u-sofls5owc7ccqhzunqni+v-ugwc8zidnvtbubmkznnl.jpg?_hv=2&w=1018",
+      "id": "6ca2a65c-3ef0-4f94-a90a-edeaaa1f63a4",
+      "createdAt": 1732321235367,
+      "updatedAt": 1732321235367
+    },
+    {
+      "product_name": "Sudadera Kansas City Chiefs blanca",
+      "description": "Sudadera con capucha con logo de Kansas City Chiefs en color blanco para mujer",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/womens-g-iii-4her-by-carl-banks-white-kansas-city-chiefs-football-logo-fleece-tri-blend-pullover-hoodie_ss5_p-201454926+pv-1+u-xj5qqfaxplopgogcjuhx+v-gh9sfqth75bb3qhkeav3.jpg?_hv=2&w=1018",
+      "id": "6ca2a65c-3ef0-4f94-a90a-edeaaa1f63a4",
+      "createdAt": 1732321235367,
+      "updatedAt": 1732321235367
+    },
+    {
+      "product_name": "Sudadera Kansas City Chiefs negra",
+      "description": "Sudadera con capucha con logo de Kansas City Chiefs en color negro para mujer",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/womens-g-iii-4her-by-carl-banks-black-kansas-city-chiefs-football-logo-fleece-tri-blend-pullover-hoodie_ss5_p-201454998+pv-1+u-jhby3degnfeeo0jiwdgi+v-58ashxkrrilql3va2rjp.jpg?_hv=2&w=1018",
+      "id": "6ca2a65c-3ef0-4f94-a90a-edeaaa1f63a4",
+      "createdAt": 1732321235367,
+      "updatedAt": 1732321235367
     },
     {
       "product_name": "Jersey Kansas City Chiefs #15 Rojo",
@@ -60,17 +110,17 @@
       "description": "Jersey de Patrick Mahomes color blanco",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-patrick-mahomes-white-kansas-city-chiefs-game-jersey_ss5_p-13321842+u-yxgmkbzae84hhubewdry+v-2f0ed5b8b6284c7d83ffd57f15f5f4c4.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-patrick-mahomes-white-kansas-city-chiefs-game-jersey_ss5_p-201238458+pv-1+u-y0ms5e6t1jtdgmrfqs2p+v-an3jz8kc48pfetjrq73x.jpg?_hv=2&w=1018",
       "id": "d52cd6e9-37d4-4d02-94c5-f867f37ae4fa",
       "createdAt": 1732322080338,
       "updatedAt": 1732322080338
     },
     {
-      "product_name": "Jersey Kansas City Chiefs #15 Negro",
-      "description": "Jersey de Patrick Mahomes color negro",
+      "product_name": "Jersey Kansas City Chiefs #88 Rojo",
+      "description": "Jersey de Tony Gonzalez color rojo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-patrick-mahomes-black-kansas-city-chiefs-game-jersey_ss5_p-13321843+u-mj8y04hifwfbg1qj26k3+v-e2ab0b5bac99433297c5ff6d7aa4ca5b.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-tony-gonzalez-red-kansas-city-chiefs-game-retired-player-jersey_pi3974000_altimages_ff_3974174-d1349be849007e6c5020alt1_full.jpg?_hv=2&w=1018",
       "id": "1843fcc0-19e2-4207-91c4-76933d9495f7",
       "createdAt": 1732322119051,
       "updatedAt": 1732322119051
@@ -80,17 +130,17 @@
       "description": "Jersey de Travis Kelce color blanco",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-white-kansas-city-chiefs-game-jersey_ss5_p-13321859+u-1xoprgfmdzj5d8rfubwu+v-e88f9e3f01424ac8af13f80e7c9b2e00.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-white-kansas-city-chiefs-vapor-fuse-limited-jersey_ss5_p-5029991+pv-1+u-pk9honjghvruurcimt8r+v-gy2rkxckmpqngpvujzoh.jpg?_hv=2&w=1018",
       "id": "9dcfdd20-acbd-4960-88a7-c80afd653610",
       "createdAt": 1732322153270,
       "updatedAt": 1732322153270
     },
     {
-      "product_name": "Jersey Kansas City Chiefs #87 Negro",
-      "description": "Jersey de Travis Kelce color negro",
+      "product_name": "Jersey Kansas City Chiefs #32 Rojo",
+      "description": "Jersey de Nick Bolton color rojo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-black-kansas-city-chiefs-game-jersey_ss5_p-13321860+u-ydp0sbg1kxxz5cvrh4kq+v-f5b8a8c16d214d4d969b165e55abcccb.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-nick-bolton-white-kansas-city-chiefs-away-game-player-jersey_pi5200000_altimages_ff_5200803-32b69910235012b0dca2alt1_full.jpg?_hv=2&w=1018",
       "id": "0d74dfd0-b64a-4941-8743-4aca9a69810c",
       "createdAt": 1732322177210,
       "updatedAt": 1732322177210
@@ -100,31 +150,51 @@
       "description": "Jersey de Travis Kelce color rojo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-red-kansas-city-chiefs-game-jersey_ss5_p-13321858+u-ehmf0gvh82aehmlcvzah+v-58c5e3bb1cf04dd2b9d59c5fba96f96d.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-travis-kelce-red-kansas-city-chiefs-vapor-fuse-limited-jersey_ss5_p-5029987+pv-1+u-qkclhqysavbrgpjixigm+v-8zxlixvgu2trhncg5u0d.jpg?_hv=2&w=1018",
       "id": "85074eac-aa55-4686-8995-81b3b535f1be",
       "createdAt": 1732322202360,
       "updatedAt": 1732322202360
     },
     {
-      "product_name": "Balón NFL",
-      "description": "Balón oficial de la NFL",
-      "price": "500",
-      "category": "Artículos",
-      "image": "https://images.footballfanatics.com/nfl/wilson-nfl-pro-replica-game-football_ss4_p-11765424+u-zgpbwi4bqhq8l0r1kkwd+v-20dc1f65edca4d53835ca34a0f62e20e.jpg?_hv=2&w=900",
-      "id": "6e2c291f-f28c-4d04-bf0e-886019faeee8",
-      "createdAt": 1732322232723,
-      "updatedAt": 1732322232723
-    },
-    {
-      "product_name": "Jersey Kansas City Chiefs #25 Amarillo",
-      "description": "Jersey de Isiah Pacheco color amarillo",
+      "product_name": "Jersey Kansas City Chiefs #10 Rojo",
+      "description": "Jersey de Isiah Pacheco color rojo",
       "price": "2500",
       "category": "Jerseys",
-      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-isiah-pacheco-gold-kansas-city-chiefs-inverted-game-jersey_ss5_p-200053949+u-rklxfwsodkxq19umhkp9+v-84e9f4fb99df41d8980f48cac30c0cbd.jpg?_hv=2&w=900",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-isiah-pacheco-red-kansas-city-chiefs-vapor-fuse-limited-jersey_ss5_p-200590407+pv-1+u-zabyx5ca2isufyzeutle+v-jmoqvrofmhadpvvttieb.jpg?_hv=2&w=1018",
       "id": "b9afc7d9-0872-4d89-98a7-dd802d862c0a",
       "createdAt": 1732324966213,
       "updatedAt": 1732324966213
-    }
+    },
+    {
+      "product_name": "Jersey Kansas City Chiefs #56 Rojo",
+      "description": "Jersey de George Karlaftis color rojo",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-george-karlaftis-red-kansas-city-chiefs-player-game-jersey_pi4885000_altimages_ff_4885629-67243b306605b9e76cb1alt1_full.jpg?_hv=2&w=1018",
+      "id": "b9afc7d9-0872-4d89-98a7-dd802d862c0a",
+      "createdAt": 1732324966213,
+      "updatedAt": 1732324966213
+    },
+    {
+      "product_name": "Jersey Kansas City Chiefs #52 Rojo",
+      "description": "Jersey de Creed Humphrey color rojo",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-nike-creed-humphrey-red-kansas-city-chiefs-game-jersey_pi4448000_altimages_ff_4448883-c8682eb5ea0b1e858e2falt1_full.jpg?_hv=2&w=1018",
+      "id": "b9afc7d9-0872-4d89-98a7-dd802d862c0a",
+      "createdAt": 1732324966213,
+      "updatedAt": 1732324966213
+    },
+    {
+      "product_name": "Jersey Kansas City Chiefs #19 Blanco",
+      "description": "Jersey de Joe Montana color blanco",
+      "price": "2500",
+      "category": "Jerseys",
+      "image": "https://fanatics.frgimages.com/kansas-city-chiefs/mens-mitchell-and-ness-joe-montana-white-kansas-city-chiefs-1994-authentic-throwback-retired-player-jersey_ss5_p-201451158+pv-1+u-48n2t7sagcypziohpxnp+v-u07w9wguyk33e55uvsjp.jpg?_hv=2&w=1018",
+      "id": "b9afc7d9-0872-4d89-98a7-dd802d862c0a",
+      "createdAt": 1732324966213,
+      "updatedAt": 1732324966213
+    },
   ],
   "cart": []
 }
